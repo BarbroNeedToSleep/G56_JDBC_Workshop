@@ -48,6 +48,10 @@ public class City {
 
     // Setters
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
 
     public void setName(String name) {
         this.name = name;
@@ -68,7 +72,7 @@ public class City {
     @Override
     public String toString() {
         return "City:" +
-                " id=" + id + ", name=" + name + ", countryCode=" + countryCode +
-                ", district=" + district + " population =" + population;
+                " id = " + id + ", name = " + name + ", countryCode = " + countryCode +
+                ", district = " + district + " population = " + population;
     }
 }
