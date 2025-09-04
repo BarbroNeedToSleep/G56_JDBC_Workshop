@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface CityDao {
-    Optional<City> findById(int id);
+    Optional<City> findById(int id) ;
 
     List<City> findByCode(String code);
 
