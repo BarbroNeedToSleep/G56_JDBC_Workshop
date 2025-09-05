@@ -1,2 +1,5 @@
 # Project exclude paths
 /target/
+
+# Local database config
+src/main/resources/db.properties
